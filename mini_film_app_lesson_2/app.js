@@ -11,7 +11,7 @@ try{
     mongoose.connect(MURL);
     // console.log(MURL);
 } catch(err) {
-    console.error("You need to save your MongoURL in a file called MongoURL.txt")
+    console.error("\nYou need to save your MongoURL in a file called MongoURL.txt\n")
 }
 
 
